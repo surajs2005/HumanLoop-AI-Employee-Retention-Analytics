@@ -1,6 +1,7 @@
 HumanLoop AI
 Predictive Analytics for Employee Retention in IT Companies
 
+
  Abstract
 
 Employee attrition is one of the most critical challenges faced by IT organizations, leading to increased hiring costs, productivity loss, and project instability. While organizations collect large volumes of employee-related data, transforming this data into actionable and ethical decisions remains difficult.
@@ -8,6 +9,7 @@ Employee attrition is one of the most critical challenges faced by IT organizati
 HumanLoop AI is an end-to-end AI-powered HR decision-support system that combines Data Science, Machine Learning, Deep Learning, Explainable AI, and a Web Dashboard to predict employee attrition, explain contributing factors, estimate business impact, and assist HR professionals through a human-in-the-loop approach.
 
 This project is developed as a final-year university project, designed to reflect real-world industry practices.
+
 
  Problem Definition
 
@@ -31,6 +33,8 @@ Quantify financial impact
 
 Support ethical and informed HR decisions
 
+
+
  Project Objectives
 
 Perform deep exploratory analysis on HR data
@@ -49,6 +53,8 @@ Design an interactive dashboard for HR decision support
 
 Ensure ethical AI usage via human-in-the-loop validation
 
+
+
  Solution Overview
 
 HumanLoop AI follows a layered architecture:
@@ -66,6 +72,8 @@ Decision Layer – Risk banding and recommendations
 Application Layer – Web dashboard and APIs
 
 Human Control Layer – HR review and confirmation
+
+
 
  Dataset Description
 
@@ -88,6 +96,7 @@ Overtime and distance
 Target Variable: Attrition (Yes / No)
 
 The dataset is moderately imbalanced, making it suitable for advanced classification techniques.
+
 
 🔬 Data Science Workflow
 1️ Data Preprocessing
@@ -124,6 +133,8 @@ Department-level attrition hotspots
 
 Correlation analysis
 
+
+
  Machine Learning & Deep Learning Models
 Models Implemented
 
@@ -151,6 +162,8 @@ Interpretability
 
 Business relevance
 
+
+
 Deep learning is used only when it provides measurable improvement over classical ML.
 
  Explainable AI (XAI)
@@ -176,6 +189,9 @@ Rule-based HR recommendations
 Scenario-based decision support
 
 These features transform predictions into actionable insights.
+
+
+
 
  Web Dashboard (HumanLoop AI)
 Dashboard Capabilities
